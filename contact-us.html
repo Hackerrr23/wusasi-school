@@ -116,7 +116,7 @@
             <h3>CONTACT FORM</h3>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, varius non tincidunt at, malesuada eget mauris. Phasellus consequat suscipit quam ut malesuada. </p>
             <!-- Contact FORM -->
-                <form name="contact"  data-netlify="true">
+                <!-- <form name="contact"  data-netlify="true">
                     <p>
                       <label>Your Name: <input type="text" name="name" /></label>   
                     </p>
@@ -135,19 +135,26 @@
                     <p>
                       <button type="submit">Send</button>
                     </p>
-                  </form>
+                  </form> -->
               <!-- END IF MAIL SENT SUCCESSFULLY -->
             <form id="contact" netlify data-netlify="true">
               <div class="row">
                 <div class="col-sm-6">
                   <div class="input-group">
-                    <input type="text" class="form-control" id="name" name="form-name" placeholder="Your Name">
+                      <p>
+                          <label>Your Name: <input type="text" class="form-control" id="name" name="form-name" placeholder="Your Name">  
+                        </p>
+                    
                   </div>
                   <div class="input-group">
-                    <input type="text" class="form-control" id="email" name="form-email" placeholder="Email">
+                      <p>
+                          <label>Your Name: <input type="text" class="form-control" id="email" name="email" placeholder="Your Email">  
+                        </p>
                   </div>
                   <div class="input-group">
-                    <input type="text" class="form-control" name="form-subject" placeholder="Subject">
+                      <p>
+                          <label>Your Name: <input type="text" class="form-control" id="phone" name="phone" placeholder="Your Phone">  
+                        </p>
                   </div>
                 </div>
                 <div class="col-sm-6">
@@ -156,7 +163,9 @@
                   </div>
                 </div>
                 <div class="col-sm-12 mt-30">
-                  <input type="submit" value="Submit Now" class="sub">
+                    <p>
+                        <button type="submit">Send</button>
+                      </p>
                 </div>
               </div>
             </form>
