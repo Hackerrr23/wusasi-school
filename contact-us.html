@@ -116,10 +116,29 @@
             <h3>CONTACT FORM</h3>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, varius non tincidunt at, malesuada eget mauris. Phasellus consequat suscipit quam ut malesuada. </p>
             <!-- Contact FORM -->
-            <form id="contact">
-              
+            <!-- <form id="contact" netlify data-netlify="true"> -->
+                <form name="contact"  data-netlify="true">
+                    <p>
+                      <label>Your Name: <input type="text" name="name" /></label>   
+                    </p>
+                    <p>
+                      <label>Your Email: <input type="email" name="email" /></label>
+                    </p>
+                    <p>
+                      <label>Your Role: <select name="role[]" multiple>
+                        <option value="leader">Leader</option>
+                        <option value="follower">Follower</option>
+                      </select></label>
+                    </p>
+                    <p>
+                      <label>Message: <textarea name="message"></textarea></label>
+                    </p>
+                    <p>
+                      <button type="submit">Send</button>
+                    </p>
+                  </form>
               <!-- END IF MAIL SENT SUCCESSFULLY -->
-              <div class="row">
+              <!-- <div class="row">
                 <div class="col-sm-6">
                   <div class="input-group">
                     <input type="text" class="form-control" id="name" name="form-name" placeholder="Your Name">
@@ -140,7 +159,7 @@
                   <input type="submit" value="Submit Now" class="sub">
                 </div>
               </div>
-            </form>
+            </form> -->
             <!-- END Contact FORM --> 
           </div>
         </div>
