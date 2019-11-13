@@ -46,7 +46,12 @@ Table Of Index
 body{font-family: 'Open Sans', sans-serif;}
 
 a{-webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease;}
-
+.masanjay {
+    color: #B50CAF;
+}
+.members {
+    max-height: 200px;
+}
 img{max-width:100%;}
 h1, h2, h3, h4, h5, h6{font-family: 'Poppins', sans-serif;}
 p{font-size:14px; line-height:24px; color:#333;}
@@ -870,7 +875,7 @@ top:0;
 .experts li{position:relative; display:inline-block;}
 .experts li a{color:#fff; font-size:14px; line-height: 30px; width: 30px; height: 30px; border: 1px solid #fff; border-radius: 100%; display: block;}
 .team-info h5 > a:hover{color:#222;}
-.team-image {position: relative; overflow:hidden;}
+.team-image {position: relative; overflow:hidden; max-height: 15vh;;}
 .team-team{padding-top:0;}
 .team-wrap .title h1:before{left:50%; margin-left:-35px;}
 .socials{display: table; height: 100%; width: 100%;}
@@ -901,7 +906,9 @@ top:0;
 -----------------------------------------*/
 
 #counter {text-align:center;
-	background:url(../images/counter-bg.jpg) no-repeat top; background-size:cover;
+    background:url(../images/graduation2.jpg) no-repeat top; background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
 	padding: 40px 0
 }
 .animatebg {
@@ -963,6 +970,11 @@ background-color:#e63d53;
 	color: #fff;
 }
 .counterbox {
+    background-image: url("../images/teacher3.jpg");
+
+}
+.counter {
+    background-image: url("../images/teacher3.jpg");
 }
 
 
