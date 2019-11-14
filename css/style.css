@@ -2758,10 +2758,51 @@ blockquote:after {
     margin: 0 auto;
     margin-bottom: 2vh;
 }
-.fixingPadding {
-    height: 100%;
-    margin-bottom: 0;
-}
+
 .about-wrap {
     height: 35vh;
 }
+
+@media only screen and (min-width: 900px) {
+    .learning-pointes, .readmoreHaha {
+       display: none;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .learning-pointes {
+        margin-top: 65vh;
+        display: flex;
+        width: 50vw;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .learning-pointes {
+        margin-top: 52vh;
+    }
+  }
+
+
+
+
+  /*  
+  @media only screen and (max-width: 900px) {
+    .learning-pointes {
+        margin-top: 43vh;
+        display: flex;
+        width: 60vw;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .learning-pointes {
+        margin-top: 43vh;
+        display: flex;
+        width: 70vw;
+    }
+  } */
+  /* @media only screen and (max-width: 1300px) {
+    .learning-pointes {
+        margin-top: 13vh;
+        display: flex;
+        width: 80vw;
+    }
+  } */
