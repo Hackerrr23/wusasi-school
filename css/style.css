@@ -2775,10 +2775,16 @@ blockquote:after {
 .about-wrap2 {
     height: 70vh;
 }
+.form-control {
+    width: 30vw;
+}
 
 @media only screen and (min-width: 900px) {
     .learning-pointes, .readmoreHaha {
        display: none;
+    }
+    .form-control {
+        width: 50vw;
     }
   }
   @media only screen and (max-width: 768px) {
@@ -2787,11 +2793,15 @@ blockquote:after {
         display: flex;
         width: 50vw;
     }
+    .form-control {
+        width: 50vw;
+    }
   }
 @media only screen and (max-width: 600px) {
     .learning-pointes {
         margin-top: 52vh;
     }
+   
   }
 
   @media only screen and (min-width: 300px) {
