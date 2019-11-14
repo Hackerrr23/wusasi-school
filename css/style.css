@@ -2204,7 +2204,7 @@ blockquote:after {
 /*---------------------------------------
        Inner Heading Css              
 -----------------------------------------*/
-.inner-heading{background: url(../images/Yusef.jpg) no-repeat top; padding: 40px 0; background-size: cover;}
+.inner-heading{background: url(../images/trees.jpeg) no-repeat top; padding: 40px 0; background-size: cover;}
 
 
 
@@ -2772,13 +2772,22 @@ blockquote:after {
     height: 30vh;
     border-radius: 50%;
 }
+.about-wrap {
+    margin-bottom: 0;
+}
 .about-wrap2 {
     height: 70vh;
 }
 .form-control {
     width: 30vw;
 }
+.contactButton {
+    padding: 20px;
+    border-radius: 8px;
+    color: purple;
+    border: 1px solid green;
 
+}
 @media only screen and (min-width: 900px) {
     .learning-pointes, .readmoreHaha {
        display: none;
