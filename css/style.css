@@ -2708,10 +2708,7 @@ blockquote:after {
 
 }
 
-
-
-
-.show img{
+.show img, .projectImg img{
     max-height: 20vh;
 }
 .galleryCenter {
@@ -2730,4 +2727,41 @@ blockquote:after {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+}
+.ahahah {
+    min-width: 100vw;
+}
+.chicks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.myGallery1 {
+    margin: 3vh;
+}
+.aboutImg {
+    min-height: 40vh;
+}
+.learning-pointes {
+    width:30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.readmoreHaha {
+    width:30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+}
+.fixingPadding {
+    height: 100%;
+    margin-bottom: 0;
+}
+.about-wrap {
+    height: 35vh;
 }
