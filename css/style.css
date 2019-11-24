@@ -103,7 +103,7 @@ ul, ol{list-style:none; margin-bottom:0;}
     width: 200px;
     padding: 0px;
     z-index: 100;
-    background: #eb325b;
+    background: white;
     visibility: hidden;
     opacity: 0;
     border-radius: 0px 2px 2px 2px;
@@ -117,11 +117,33 @@ ul, ol{list-style:none; margin-bottom:0;}
     -ms-transition: all 500ms ease;
     -o-transition: all 500ms ease;
 }
+/* .submenu li:last-child{border: none;}
+.navbar-nav > li:hover > ul {
+    top: 100%;
+    left: -500%;
+    opacity: 1;
+    visibility: visible;
+    width: 50vw;
+    height: 30vh;
+}
+
+.submenu li:hover a {
+    background: #000;
+    color: #fff !important; 
+} */
 .submenu li:last-child{border: none;}
 .navbar-nav > li:hover > ul {
     top: 100%;
+    left: -500%;
     opacity: 1;
     visibility: visible;
+    width: 70vw;
+    height: 30vh;
+}
+
+.submenu li:hover a {
+    background: #000;
+    color: #fff !important; 
 }
 
 .navbar-nav > li > ul > li {
@@ -131,10 +153,6 @@ ul, ol{list-style:none; margin-bottom:0;}
     border-bottom: 1px solid rgba(255,255,255,0.50);
 }
 
-.submenu li:hover a {
-    background: #000;
-    color: #fff !important; 
-}
 
 .navbar-nav > li > ul > li > a {text-decoration:none;
     position: relative;
@@ -2788,6 +2806,29 @@ blockquote:after {
     border: 1px solid green;
 
 }
+.overlaying  {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%,black 100%),
+    url("../images/newInternational.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.coverHover {
+    width: 70vw;
+}
+.akademics {
+    display: flex;
+}
+.akademics2 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    align-items: center;
+}
+.akademics2 p {
+    text-align: center;
+}
 @media only screen and (min-width: 900px) {
     .learning-pointes, .readmoreHaha {
        display: none;
@@ -2804,6 +2845,18 @@ blockquote:after {
     }
     .form-control {
         width: 50vw;
+    }
+    .akademics {
+        flex-direction: column;
+        max-width: 95vw;
+        color: white;
+        margin: 0 auto;
+    }
+    .akademics2 {
+        flex-direction: column;
+        max-width: 95vw;
+        color: white;
+        margin: 0 auto;
     }
   }
 @media only screen and (max-width: 600px) {
