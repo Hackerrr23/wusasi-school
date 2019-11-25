@@ -47,7 +47,7 @@ body{font-family: 'Open Sans', sans-serif;}
 
 a{-webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease;}
 .masanjay {
-    color: #B50CAF;
+    color: blue;
 }
 .buttom {
     display: flex;
@@ -73,7 +73,7 @@ p{font-size:14px; line-height:24px; color:#333;}
 ul, ol{list-style:none; margin-bottom:0;}
 
 .title h1{font-size:42px; color:#000; font-weight:bold; position:relative; margin-bottom:40px;}
-.title h1 span{color:#ff00d7;}
+.title h1 span{color:blue;}
 .title h1:before{content:""; background:url(../images/heading-line.png) no-repeat; width:70px; height:12px; position:absolute; bottom:-20px; left:0;}
 .readmore a{text-decoration:none; font-size:16px; color:#fff; background:#f32163; padding:14px 35px; border-radius:30px; display:inline-block; text-transform:uppercase; font-weight:bold;}
 .readmore i{padding-left:5px;}
@@ -474,7 +474,7 @@ a.slidebtn i{margin-left:10px;}
 }
 .classes .class-item .content h4 a{
     text-decoration: none;
-    color: #ff00d7;
+    color: lightblue;
 }
 .classes > div > div > div:nth-child(2) .class-item .content h4 a{
     color: #ff00d7;
@@ -528,7 +528,7 @@ a.slidebtn i{margin-left:10px;}
     margin: 0px;     min-height: 70px;
 }
 .classes .class-item .content p span{
-    color: #ff00d7;
+    color: blue;
 }
 .classes .class-item .content p:nth-child(2){
     line-height: 24px;
@@ -2830,7 +2830,7 @@ blockquote:after {
     text-align: center;
 }
 .span-sass {
-    color: #FE00D7;
+    color: silver;
     font-size: 30px;
 }
 .ourMembers {
