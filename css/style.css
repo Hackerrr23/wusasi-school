@@ -58,13 +58,13 @@ a{-webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: a
 
 }
 .show {
-    /* max-height: 33%; */
+height: 55vh;
 }
 .buttomButtom {
     text-align: center;
 }
 .members {
-    max-height: 200px;
+    height: 53vh;
 }
 img{max-width:100%;}
 h1, h2, h3, h4, h5, h6{font-family: 'Poppins', sans-serif;}
@@ -2829,6 +2829,15 @@ blockquote:after {
 .akademics2 p {
     text-align: center;
 }
+.span-sass {
+    color: #FE00D7;
+    font-size: 30px;
+}
+.ourMembers {
+    width: 100%;
+    height: 300%;
+    /* object-fit: inherit; */
+}
 @media only screen and (min-width: 900px) {
     .learning-pointes, .readmoreHaha {
        display: none;
@@ -2858,6 +2867,13 @@ blockquote:after {
         color: white;
         margin: 0 auto;
     }
+  }
+  .bolded {
+      font-weight: bold;
+      font-size: 110%;
+  }
+  .top-explain {
+      font-size: 20px;
   }
 @media only screen and (max-width: 600px) {
     .learning-pointes {
