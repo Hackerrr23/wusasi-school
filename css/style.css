@@ -2846,6 +2846,11 @@ blockquote:after {
     background-position-y: -240px;
     height: 30vh;
 }
+.mr-auto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media only screen and (min-width: 900px) {
     .learning-pointes, .readmoreHaha {
        display: none;
