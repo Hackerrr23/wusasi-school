@@ -47,6 +47,11 @@
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
                     <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
+                    <!-- <div id="google_translate_element"></div><script type="text/javascript">
+                      function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'fr,en,en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: true}, 'google_translate_element');
+                      }
+                      </script> -->
                     <li class="nav-item"> <a class="nav-link" href="#">Academics</a> <i class="fa fa-caret-down" aria-hidden="true"></i>
                       <ul class="submenu coverHover">
                            <div class="akademics">
@@ -85,6 +90,20 @@
                     <li class="nav-item"> <a class="nav-link" href="faqs.html">FAQ</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="contact-us.html">Contact</a> </li>
 
+
+<!--                    
+                      <ul class="list-unstyled list-inline ct-topbar__list">
+                        <li class="ct-language">Choose Language <i class="fa fa-arrow-down"></i>
+                        <ul class="list-unstyled ct-language__dropdown"> -->
+                          <li class="languages"><a href="#googtrans(en|en)" class="lang-en lang-select" data-lang="en"><img src="https://www.solodev.com/assets/google-translate/flag-usa.png" alt="USA">En</a></li>
+                          <!-- <li><a href="#googtrans(en|es)" class="lang-es lang-select" data-lang="es"><img src="https://www.solodev.com/assets/google-translate/flag-mexico.png" alt="MEXICO"></a></li> -->
+                          <li class="languages"><a href="#googtrans(en|fr)" class="lang-es lang-select" data-lang="fr"><img src="https://www.solodev.com/assets/google-translate/flag-france.png" alt="FRANCE">Fr</a></li>
+                          <!-- <li><a href="#googtrans(en|zh-CN)" class="lang-es lang-select" data-lang="zh-CN"><img src="https://www.solodev.com/assets/google-translate/flag-china.png" alt="CHINA"></a></li> -->
+                          <!-- <li><a href="#googtrans(en|ja)" class="lang-es lang-select" data-lang="ja"><img src="https://www.solodev.com/assets/google-translate/flag-japan.png" alt="JAPAN"></a></li> -->
+                        <!-- </ul>
+                        </li>
+                      </ul> -->
+                    
                      <!-- <li class="nav-item"> <a class="nav-link" href="classes.html">Classes</a> <i class="fa fa-caret-down" aria-hidden="true"></i>
                         <ul class="submenu coverHover">
                               <li><a href="classes.html">Classes</a></li>
@@ -701,5 +720,40 @@
     <script src="js/counter.js"></script> 
     <!-- general script file --> 
     <script src="js/script.js"></script>
+    <!-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+     function googleTranslateElementInit(){
+       new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,fr,en'}, 'google_translate_element')
+     }
+    </script> -->
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+      }
+  
+    function triggerHtmlEvent(element, eventName) {
+      var event;
+      if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+      } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+      }
+    }
+  
+    jQuery('.lang-select').click(function() {
+      var theLang = jQuery(this).attr('data-lang');
+      jQuery('.goog-te-combo').val(theLang);
+  
+      //alert(jQuery(this).attr('href'));
+      window.location = jQuery(this).attr('href');
+      location.reload();
+  
+    });
+    </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </body>
     </html>
