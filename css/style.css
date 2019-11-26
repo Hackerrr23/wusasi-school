@@ -881,7 +881,7 @@ a.slidebtn i{margin-left:10px;}
 .team-wrap{padding:60px 0; text-align: center;}
 .team-wrap p{text-align:center; font-size:14px; line-height:24px; color:#333; margin-bottom:25px;}
 .team{margin-bottom: 30px; overflow: hidden; text-align: center; border: 1px solid #e0e0e0; background:#fff;}
-.team{margin-bottom:0;}
+.team{margin-bottom:0; display: flex;flex-direction: column;}
 .team-list{position: relative;}
 .team-info{text-align:center; position:relative; background: #1923b1; display:block; height:100%;
 top:0;
@@ -902,7 +902,7 @@ top:0;
 .team-wrap ul li:nth-child(2) .overlay{background:rgba(177, 25, 157, 0.7);}
 .team-wrap ul li:nth-child(3) .overlay{background:rgba(170, 199, 15, 0.61);}
 .team-wrap ul li:nth-child(4) .overlay{background:rgba(12, 160, 127, 0.62);}
-.team-image img{width: 100%;height: 100%;}
+.team-image img{width: 100%;height: 50vh; object-fit: cover;}
 .team-info h5{margin-bottom:0;}
 .team-info h5 > a{font-size:18px; text-decoration:none; color:#fff; font-weight:600; display:block; margin:0px 0px 4px 0;}
 .team-info span{font-size:14px;	color:#fff; display:block;}
@@ -910,7 +910,7 @@ top:0;
 .experts li{position:relative; display:inline-block;}
 .experts li a{color:#fff; font-size:14px; line-height: 30px; width: 30px; height: 30px; border: 1px solid #fff; border-radius: 100%; display: block;}
 .team-info h5 > a:hover{color:#222;}
-.team-image {position: relative; overflow:hidden; max-height: 15vh;;}
+.team-image {  position: relative; overflow:hidden;height: 20vh;}
 .team-team{padding-top:0;}
 .team-wrap .title h1:before{left:50%; margin-left:-35px;}
 .socials{display: table; height: 100%; width: 100%;}
@@ -2838,6 +2838,14 @@ blockquote:after {
     height: 300%;
     /* object-fit: inherit; */
 }
+.team-image {
+    background-image: url("../images/founder2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -240px;
+    height: 30vh;
+}
 @media only screen and (min-width: 900px) {
     .learning-pointes, .readmoreHaha {
        display: none;
@@ -2884,7 +2892,7 @@ blockquote:after {
     height: 200px;
  }
  .team-member {
-     /* height: 70vh; */
+     height: 70vh;
  }
   /*  TRANSLATION */
   .goog-te-banner-frame.skiptranslate {display: none !important;} 
